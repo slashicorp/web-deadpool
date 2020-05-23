@@ -8,8 +8,8 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
+figure, figcaption, hgroup,
+menu, nav, output, ruby, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -19,12 +19,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, hgroup, menu, nav {
 	display: block;
-}
-body {
-	line-height: 1;
 }
 ol, ul {
 	list-style: none;
