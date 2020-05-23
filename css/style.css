@@ -26,9 +26,8 @@ a {
 }
 
 .box{
- display: block;
  width: auto;
- border: solid 1px #fff;
+ /* border: solid 1px #fff; */
  margin: 10px;
  padding: 10px;
 }
@@ -38,15 +37,26 @@ a {
 }
 
 .box-child-1{
-  flex-grow: 1;
+  box-shadow: rgb(0, 0, 0) 2px 2px 5px;
 }
 
 .box-child-2{
-  flex-grow: 1;
+  box-shadow: rgb(0, 0, 0) 2px 2px 5px;
 }
 
 .box-child-3{
-  flex-grow: 1;
+  box-shadow: rgb(0, 0, 0) 2px 2px 5px;
+}
+
+.box figure{
+  display: inline-block;
+  border: 2px;
+  padding: 5px 5px 150px 5px;
+  position: relative;
+}
+
+.box figcaption{
+  position: absolute;
 }
 
 .rodape{
